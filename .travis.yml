@@ -35,3 +35,5 @@ branches:
   only:
     - source
 
+notifications:
+  email: false
