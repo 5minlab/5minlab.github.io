@@ -1,5 +1,8 @@
 # Harmony
 
+[![Build Status](https://travis-ci.org/5minlab/5minlab.github.io.svg?branch=source)](https://travis-ci.org/5minlab/5minlab.github.io)
+
+
 Harmony is a responsive jekyll theme. 
 
 - Build for jekyll 2.x
