@@ -29,7 +29,7 @@ script:
   - cp -r /tmp/_site/* .
   - git add -f .
   - git commit -a -m "add new site content"
-  - git push origin master --quite
+  - git push origin master --quiet
 
 branches:
   only:
