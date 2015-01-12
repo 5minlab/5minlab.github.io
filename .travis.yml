@@ -24,6 +24,12 @@ script:
   - git remote add origin git@github.com:5minlab/5minlab.github.io.git
   - git fetch origin
   - bundle exec jekyll build
+  - mv _site /tmp
+  - git checkout master
+  - cp -r /tmp/_site/* .
+  - git add -f .
+  - git commit -a -m "add new site content"
+  - git push origin master --quite
 
 branches:
   only:
