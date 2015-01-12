@@ -51,6 +51,8 @@ exclude:
   - .gitignore
   - .sass-cache
   - Gemfile.lock
+  - 5minlab_rsa
+  - LICENSE.md
 
 # Sass conversion configs
 sass:
