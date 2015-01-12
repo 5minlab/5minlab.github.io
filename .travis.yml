@@ -1,0 +1,11 @@
+language: ruby
+
+rvm:
+  - 2.1
+
+branches:
+  except:
+    - master
+
+notifications:
+  email: false
