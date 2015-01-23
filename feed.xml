@@ -5,16 +5,17 @@
     <description>세상에서 가장 재미있는 게임을 만드는 것에 끝없이 도전하는 실험실</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Jan 2015 09:58:30 +0000</pubDate>
-    <lastBuildDate>Fri, 23 Jan 2015 09:58:30 +0000</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2015 10:08:30 +0000</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2015 10:08:30 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>GGJ Seoul@5minlab 운영정보</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;운영정보&lt;/h2&gt;
+        <description>&lt;h1 id=&quot;minlabgithubiohttp5minlabgithubio&quot;&gt;&lt;a href=&quot;http://5minlab.github.io&quot;&gt;5minlab.github.io&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;정보&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/a/5minlab.com/spreadsheets/d/1HulKpt0movdDHOaku8qzocytRfozFFylQ6WCQwdxndY/edit#gid=0&quot;&gt;게임잼 마스터 시트&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/a/5minlab.com/document/d/1T7uBWbssgDLkwG7WEzehwtpt2nuZiHuOfmmS6QcVpyc/edit&quot;&gt;WiFi 운영&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/a/5minlab.com/document/d/1T7uBWbssgDLkwG7WEzehwtpt2nuZiHuOfmmS6QcVpyc/edit&quot;&gt;WiFi&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 23 Jan 2015 18:50:00 +0000</pubDate>
