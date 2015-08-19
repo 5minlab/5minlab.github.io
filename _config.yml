@@ -1,6 +1,6 @@
 # Harmony Jekyll theme general configurations
 
-production: false
+production: true
 
 # Base URL
 baseurl:
