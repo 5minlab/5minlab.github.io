@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>세상에서 가장 재미있는 게임을 만드는 것에 끝없이 도전하는 실험실</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Aug 2015 08:47:28 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2015 08:47:28 +0000</lastBuildDate>
+    <link>https://5minlab.github.io/</link>
+    <atom:link href="https://5minlab.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 19 Aug 2015 10:26:11 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2015 10:26:11 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -141,8 +141,8 @@
 
 </description>
         <pubDate>Wed, 19 Aug 2015 14:00:00 +0000</pubDate>
-        <link>/2015-engineer-recruit</link>
-        <guid isPermaLink="true">/2015-engineer-recruit</guid>
+        <link>https://5minlab.github.io/2015-engineer-recruit</link>
+        <guid isPermaLink="true">https://5minlab.github.io/2015-engineer-recruit</guid>
         
         
         <category>recruit</category>
@@ -159,8 +159,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 23 Jan 2015 18:50:00 +0000</pubDate>
-        <link>/2015-ggj-seoul-5minlab</link>
-        <guid isPermaLink="true">/2015-ggj-seoul-5minlab</guid>
+        <link>https://5minlab.github.io/2015-ggj-seoul-5minlab</link>
+        <guid isPermaLink="true">https://5minlab.github.io/2015-ggj-seoul-5minlab</guid>
         
         
         <category>ggj</category>
@@ -281,8 +281,8 @@
 
 </description>
         <pubDate>Thu, 08 Jan 2015 16:07:11 +0000</pubDate>
-        <link>/2015-remote-developer-recruit</link>
-        <guid isPermaLink="true">/2015-remote-developer-recruit</guid>
+        <link>https://5minlab.github.io/2015-remote-developer-recruit</link>
+        <guid isPermaLink="true">https://5minlab.github.io/2015-remote-developer-recruit</guid>
         
         
         <category>recruit</category>
