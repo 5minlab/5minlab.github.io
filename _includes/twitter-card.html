@@ -1,0 +1,16 @@
+<meta name="twitter:card" content="summary">
+<!-- 회사 계정이 없으니 일단 내꺼로 -->
+<meta name="twitter:site" content="@if1live">
+
+{% if page.title %}
+<meta name="twitter:title" content="{{ site.harmony.name }} - {{ page.title }}" />
+{% endif %}
+
+{% capture page_url %}{{ page.url | replace:'/index.html','/' | append: site.url | append: site.baseurl }}{% endcapture %}
+<meta name="twitter:url" content="{{ page_url }}">
+
+{% if page.content and page.title %}
+<meta name="twitter:description" content="{{ page.content | markdownify | strip_html | truncate: 195, '...' }}"/>
+{% else %}
+<meta name="twitter:description" content="{{ site.harmony.description }}"/>
+{% endif %}
