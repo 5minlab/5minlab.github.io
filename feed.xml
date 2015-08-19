@@ -5,8 +5,8 @@
     <description>세상에서 가장 재미있는 게임을 만드는 것에 끝없이 도전하는 실험실</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Aug 2015 06:01:39 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2015 06:01:39 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2015 06:10:29 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2015 06:10:29 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -21,7 +21,7 @@
 
 &lt;h2 id=&quot;section-1&quot;&gt;개발 기술 스택&lt;/h2&gt;
 
-&lt;h3 id=&quot;section-2&quot;&gt;클라이언트:&lt;/h3&gt;
+&lt;h4 id=&quot;section-2&quot;&gt;클라이언트:&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;C++11&lt;/li&gt;
@@ -32,7 +32,7 @@
   &lt;li&gt;rake + buildbot (빌드 자동화 부분) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-3&quot;&gt;서버:&lt;/h3&gt;
+&lt;h4 id=&quot;section-3&quot;&gt;서버:&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Ruby (Ruby On Rails)&lt;/li&gt;
@@ -44,14 +44,14 @@
 
 &lt;h2 id=&quot;section-4&quot;&gt;업무 내용&lt;/h2&gt;
 
-&lt;h3 id=&quot;section-5&quot;&gt;클라이언트&lt;/h3&gt;
+&lt;h4 id=&quot;section-5&quot;&gt;클라이언트&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;국가별 현지 요청에 따른 추가 기능 개발 (2개국)&lt;/li&gt;
   &lt;li&gt;시기별 컨텐츠 업데이트&lt;/li&gt;
   &lt;li&gt;리포트된 버그 수정 &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-6&quot;&gt;서버&lt;/h3&gt;
+&lt;h4 id=&quot;section-6&quot;&gt;서버&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;국가별 에셋, 데이터, 서버 코드 관리 및 배포 (2개국)&lt;/li&gt;
   &lt;li&gt;Live 이벤트 관리 &lt;/li&gt;
@@ -61,7 +61,7 @@
 
 &lt;h2 id=&quot;section-7&quot;&gt;필요한 능력&lt;/h2&gt;
 
-&lt;h3 id=&quot;section-8&quot;&gt;클라이언트&lt;/h3&gt;
+&lt;h4 id=&quot;section-8&quot;&gt;클라이언트&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;필수:
     &lt;ul&gt;
@@ -80,7 +80,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-9&quot;&gt;서버&lt;/h3&gt;
+&lt;h4 id=&quot;section-9&quot;&gt;서버&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;필수:
     &lt;ul&gt;
@@ -107,7 +107,7 @@
   &lt;li&gt;점심 식사 및 필요시 저녁 식사 제공. (월 30-50만원 수준) &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-12&quot;&gt;지원방법&lt;/h3&gt;
+&lt;h2 id=&quot;section-12&quot;&gt;지원방법&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;contact@5minlab.com 으로 경력과 간단한 개인에 대해 알 수 있는 정보를 담은 이력서, 포트폴리오를 메일로 주세요.&lt;/li&gt;
   &lt;li&gt;이후 진행은 서류 검토 -&amp;gt; 기술 면접 -&amp;gt; 팀 면접을 거쳐 최종 결정되게 됩니다. &lt;/li&gt;
@@ -121,12 +121,12 @@
 
 &lt;p&gt;즐거워야 좋은 게임을 만듭니다.!&lt;/p&gt;
 
-&lt;h3 id=&quot;section-14&quot;&gt;홈페이지&lt;/h3&gt;
+&lt;h2 id=&quot;section-14&quot;&gt;홈페이지&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://facebook.com/5minlab&quot;&gt;5민랩 Facebook&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-15&quot;&gt;관련 기사&lt;/h3&gt;
+&lt;h2 id=&quot;section-15&quot;&gt;관련 기사&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=sec&amp;amp;sid1=105&amp;amp;oid=236&amp;amp;aid=0000100600&quot;&gt;피 끓는 신생 모바일 게임사의 도전기, ‘5민랩’&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.hankyung.com/news/app/newsview.php?aid=201407154674v&quot;&gt;‘꼬모: 냥이추적자’, 고양이와 ‘힐링 개발’ 화제&lt;/a&gt;&lt;/li&gt;
