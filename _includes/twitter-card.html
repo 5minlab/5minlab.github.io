@@ -4,6 +4,8 @@
 
 {% if page.title %}
 <meta name="twitter:title" content="{{ site.harmony.name }} - {{ page.title }}" />
+{% else %}
+<meta name="twitter:title" content="{{ site.harmony.name }}"/>
 {% endif %}
 
 {% capture page_url %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endcapture %}
