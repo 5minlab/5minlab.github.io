@@ -1,5 +1,7 @@
 language: ruby
 
+sodu: false
+
 rvm:
   - 2.1
 
