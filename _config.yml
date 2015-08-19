@@ -6,12 +6,11 @@ production: false
 baseurl:
 
 # Site live URL
-#url: http://gayan.me
+url: https://5minlab.github.io
 
 # Localhost
 #url: http://127.0.0.1:4000
 
-url:
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
