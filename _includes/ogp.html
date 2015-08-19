@@ -27,7 +27,7 @@
 {% endif %}
 
 {% if page.content and page.title %}
-<meta name="twitter:description" content="{{ page.content | markdownify | strip_html | truncate: 195, '...' }}"/>
+<meta name="og:description" content="{{ page.content | markdownify | strip_html | truncate: 195, '...' }}"/>
 {% else %}
 <meta property="og:description" content="{{ site.harmony.description }}"/>
 {% endif %}
