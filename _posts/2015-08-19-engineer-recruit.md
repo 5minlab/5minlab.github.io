@@ -19,7 +19,7 @@ permalink: 2015-engineer-recruit
 
 ##개발 기술 스택
 
-###클라이언트:
+####클라이언트:
 
 - C++11
 - iOS / Android (NDK) 
@@ -28,7 +28,7 @@ permalink: 2015-engineer-recruit
 - git
 - rake + buildbot (빌드 자동화 부분) 
 
-###서버:
+####서버:
 
 - Ruby (Ruby On Rails)
 - nginx
@@ -39,12 +39,12 @@ permalink: 2015-engineer-recruit
 
 ##업무 내용
 
-###클라이언트
+####클라이언트
 - 국가별 현지 요청에 따른 추가 기능 개발 (2개국)
 - 시기별 컨텐츠 업데이트
 - 리포트된 버그 수정 
 
-###서버 
+####서버 
 - 국가별 에셋, 데이터, 서버 코드 관리 및 배포 (2개국)
 - Live 이벤트 관리 
 - 운영툴 보완 / 개발
@@ -53,7 +53,7 @@ permalink: 2015-engineer-recruit
 
 ##필요한 능력
 
-###클라이언트 
+####클라이언트 
 - 필수:
   - 3년 이상의 경력, 혹은 그에 상응하는 개발 능력
   - 능숙한 C++ 및 객체지향 프로그래밍 능력
@@ -65,7 +65,7 @@ permalink: 2015-engineer-recruit
   - 오픈소스 프로젝트 기여 경험
   - 스크럼등 에자일 철학에 대해 이해하고 공감하시는 분
 
-###서버 
+####서버 
 - 필수:
   - 1년 이상의 Rails 혹은 Flask나 Django 등으로 웹서비스를 개발한 경력 혹은 그에 상응하는 능력.
   - 문제 해결 능력
@@ -86,7 +86,7 @@ permalink: 2015-engineer-recruit
 - 점심 식사 및 필요시 저녁 식사 제공. (월 30-50만원 수준) 
 
 
-###지원방법
+##지원방법
 - contact@5minlab.com 으로 경력과 간단한 개인에 대해 알 수 있는 정보를 담은 이력서, 포트폴리오를 메일로 주세요.
 - 이후 진행은 서류 검토 -> 기술 면접 -> 팀 면접을 거쳐 최종 결정되게 됩니다. 
 
@@ -100,11 +100,11 @@ permalink: 2015-engineer-recruit
 즐거워야 좋은 게임을 만듭니다.!
 
 
-###홈페이지
+##홈페이지
 * [5민랩 Facebook](http://facebook.com/5minlab)
 
 
-###관련 기사
+##관련 기사
 * [피 끓는 신생 모바일 게임사의 도전기, '5민랩'](http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=236&aid=0000100600)
 * ['꼬모: 냥이추적자', 고양이와 '힐링 개발' 화제](http://www.hankyung.com/news/app/newsview.php?aid=201407154674v)
 
