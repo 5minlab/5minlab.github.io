@@ -14,7 +14,15 @@
                     <div class="modal-body">
                         <h2>{{ .title  | markdownify }}</h2>
                         <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
+
+                        {{ if isset . "youtubeLink" }}
+                        <iframe width="{{ .youtubeWidth }}" height="{{ .youtubeHeight }}" src="https://www.youtube.com/embed/{{ .youtubeLink }}?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                        {{ end }}
+
+                        {{ if isset . "img" }}
                         <img class="img-responsive img-centered" src="img/portfolio/{{ .img }}" alt="">
+                        {{ end }}
+
                         <p>{{ .description | markdownify }}</p>
                         <ul class="list-inline">
                             {{ if isset . "date" }}
@@ -27,6 +35,10 @@
 
                             {{ if isset . "ios" }}
                             <li>{{ with $.Site.Params.portfolio.modal.ios }}{{ . | markdownify }}{{ end }}: <a href="{{ .iosLink }}">{{ .ios }}</a></li>
+                            {{ end }}
+
+                            {{ if isset . "gearvr" }}
+                            <li>{{ with $.Site.Params.portfolio.modal.gearvr }}{{ . | markdownify }}{{ end }}: {{ .gearvr }}</li>
                             {{ end }}
 
                             {{ if isset . "android" }}

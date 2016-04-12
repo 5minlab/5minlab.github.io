@@ -1,16 +1,16 @@
 # Site settings
 baseurl = "http://5minlab.github.io/"
-languageCode = "ko-KR"
-title = "5분실험실"
+languageCode = "en-US"
+title = "5minlab"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-66505862-1"
 
-contentdir = "content/ko"
-publishdir = "public/ko"
+contentdir = "content/en"
+publishdir = "public/"
 
 [params]
-    locale = "ko-KR"
+    locale = "en-US"
 
     # You can use Markdown syntax for urls [text](//url.to/source) or
     # most longer texts.
@@ -22,7 +22,7 @@ publishdir = "public/ko"
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
     name = "5minlab"
-    description = "5분실험실"
+    description = "5minlab"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -40,7 +40,7 @@ publishdir = "public/ko"
 
     # Navigation
     [params.navigation]
-        brand = "5분실험실"
+        brand = "5minlab"
         portfolio = "Games"
         services = "Company"
 
@@ -53,6 +53,12 @@ publishdir = "public/ko"
     #    url = "http://gohugo.io"
     #    name = "Hugo"
     #    weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #     url = "http://vr.5minlab.com"
+    #     name = "VR"
+    #     weight = 10
 
     #[[menu.postpend]]
     #     url = "/news/"
@@ -68,33 +74,35 @@ publishdir = "public/ko"
     [params.hero]
         # To change the background image of the hero, replace 'header-bg.jpg' in
         # the 'static/img' folder.
-        title = "5분실험실"
-        subtitle = "5분실험실 - It's nice to meet you"
-        buttonText = "한글 - Tell me more"
+        title = "5minlab"
+        subtitle = "세상에서 가장 재밌는 게임이 만들어지는 실험실"
+        buttonText = "Tell me more"
 
 
     # Services section
     [params.services]
         enable = true
         title = "Company"
-        subtitle = "한글 - Lorem ipsum dolor sit amet consectetur."
+		subtitle = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
+        #subtitle = "founded in 2013 with game lovers."
 
         [[params.services.row]]
 
-            [[params.services.row.list]]
-                icon = "fa-shopping-cart"
-                title = "E-Commerce"
-                description = "한글 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			[[params.services.row.list]]
+                icon = "fa-child"
+                title = "팀"
+                description = "2013년에 창업해 현재는 14명의 게임을 사랑하는 개발자들로 이루어졌습니다."
 
             [[params.services.row.list]]
-                icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-location-arrow"
+                title = "위치"
+                description = "서울 마포구 와우산로 73, 홍익빌딩 4층"
 
             [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-envelope"
+                title = "연락처"
+                description = "<a href=\"mailto:contact@5minlab.com\">contact@5minlab.com</a><br>+82-70-4200-8253"
+
 
     # Portfolio section
     [params.portfolio]
@@ -104,15 +112,16 @@ publishdir = "public/ko"
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
         title = "Games"
-        subtitle = "한글 - Lorem ipsum dolor sit amet consectetur."
+        subtitle = "독특하고 재밌는 5민랩의 게임들을 만나보세요!"
 
         [params.portfolio.modal]
             client = "Client"
             android = "Android"
             ios = "iOS"
+			gearvr = "Gear VR"
             date = "Date"
             category = "Category"
-            buttonText = "Close project"
+            buttonText = "Close"
 
     # Footer section
     [params.footer]
@@ -121,3 +130,4 @@ publishdir = "public/ko"
         [[params.footer.social]]
             icon = "fa-facebook"
             link = "https://www.facebook.com/5minlab"
+

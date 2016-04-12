@@ -75,32 +75,34 @@ publishdir = "public/"
         # To change the background image of the hero, replace 'header-bg.jpg' in
         # the 'static/img' folder.
         title = "5minlab"
-        subtitle = "5minlab - It's nice to meet you"
-        buttonText = "한글 - Tell me more"
+        subtitle = "Enchanting your game experience"
+        buttonText = "Tell me more"
 
 
     # Services section
     [params.services]
         enable = true
         title = "Company"
-        subtitle = "한글 - Lorem ipsum dolor sit amet consectetur."
+		subtitle = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
+        #subtitle = "founded in 2013 with game lovers."
 
         [[params.services.row]]
 
-            [[params.services.row.list]]
-                icon = "fa-shopping-cart"
-                title = "E-Commerce"
-                description = "한글 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+			[[params.services.row.list]]
+                icon = "fa-child"
+                title = "Team"
+                description = "Founded in 2013,<br>passionate and experienced 14 game lovers"
 
             [[params.services.row.list]]
-                icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-location-arrow"
+                title = "Location"
+                description = "4F, 73, Wausan-ro, Mapo-gu, Seoul, Republic of Korea"
 
             [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-envelope"
+                title = "Contact"
+                description = "<a href=\"mailto:contact@5minlab.com\">contact@5minlab.com</a><br>+82-70-4200-8253"
+
 
     # Portfolio section
     [params.portfolio]
@@ -110,15 +112,16 @@ publishdir = "public/"
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
         title = "Games"
-        subtitle = "한글 - Lorem ipsum dolor sit amet consectetur."
+        subtitle = "독특하고 재밌는 5민랩의 게임들을 만나보세요!"
 
         [params.portfolio.modal]
             client = "Client"
             android = "Android"
             ios = "iOS"
+			gearvr = "Gear VR"
             date = "Date"
             category = "Category"
-            buttonText = "Close project"
+            buttonText = "Close"
 
     # Footer section
     [params.footer]

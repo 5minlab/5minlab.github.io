@@ -24,17 +24,18 @@
                 </li>
                 {{ end }}
 
+                {{ if .Site.Params.portfolio.enable }}
+                <li>
+                    <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>
+                </li>
+                {{ end }}
+				
                 {{ if .Site.Params.services.enable }}
                 <li>
                     <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
-                {{ if .Site.Params.portfolio.enable }}
-                <li>
-                    <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
 
                 {{ if .Site.Params.about.enable }}
                 <li>
