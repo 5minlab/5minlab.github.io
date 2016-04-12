@@ -1,12 +1,6 @@
-language: ruby
+language: go
 
-sodu: false
-
-rvm:
-  - 2.1
-
-gemfile:
-  - Gemfile
+sudo: false
 
 before_install:
   - git config --global user.email "contact@5minlab.com"
@@ -19,16 +13,16 @@ before_install:
   - ssh-add .travis/id_rsa
 
 install:
-  - bundle install
+  - go get -u -v github.com/spf13/hugo
 
 script:
   - git remote remove origin
   - git remote add origin git@github.com:5minlab/5minlab.github.io.git
   - git fetch origin
-  - bundle exec jekyll build
-  - mv _site /tmp
+  - hugo -t hugo-agency-theme
+  - mv public /tmp
   - git checkout master
-  - cp -r /tmp/_site/* .
+  - cp -r /tmp/public/* .
   - git add .
   - git commit -a -m "add new site content"
   - git push origin master --quiet
