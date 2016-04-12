@@ -1,12 +1,17 @@
 # Site settings
 baseurl = "http://5minlab.github.io/"
-languageCode = "ko-kr"
+languageCode = "ko-KR"
 title = "5분실험실"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-66505862-1"
 
+contentdir = "content/ko"
+publishdir = "public/ko"
+
 [params]
+    locale = "ko-KR"
+
     # You can use Markdown syntax for urls [text](//url.to/source) or
     # most longer texts.
     #
@@ -48,12 +53,6 @@ googleAnalytics = "UA-66505862-1"
     #    url = "http://gohugo.io"
     #    name = "Hugo"
     #    weight = 10
-
-    # postpended links
-    #[[menu.postpend]]
-    #     url = "http://vr.5minlab.com"
-    #     name = "VR"
-    #     weight = 10
 
     #[[menu.postpend]]
     #     url = "/news/"

@@ -19,7 +19,7 @@ script:
   - git remote remove origin
   - git remote add origin git@github.com:5minlab/5minlab.github.io.git
   - git fetch origin
-  - hugo -t hugo-agency-theme
+  - ./build_site.sh
   - mv public /tmp
   - git checkout master
   - cp -r /tmp/public/* .

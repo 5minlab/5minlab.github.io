@@ -19,5 +19,11 @@
   {{ if .Site.Params.footer.enable }}
   {{ partial "footer.html" . }}
   {{ end }}
+
+  {{ "<!-- jQuery -->" | safeHTML }}
+  <script src="{{ .Site.BaseURL }}js/jquery.js"></script>
+  {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
+  <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+
 </body>
 </html>
