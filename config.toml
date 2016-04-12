@@ -55,10 +55,10 @@ googleAnalytics = "UA-66505862-1"
     #     name = "VR"
     #     weight = 10
 
-    [[menu.postpend]]
-         url = "/news/"
-         name = "News"
-         weight = 10
+    #[[menu.postpend]]
+    #     url = "/news/"
+    #     name = "News"
+    #     weight = 10
 
     [[menu.postpend]]
          url = "http://vr.5minlab.com"

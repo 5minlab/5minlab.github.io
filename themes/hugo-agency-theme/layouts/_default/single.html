@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body id="page-top" class="index">
+  {{ partial "nav_alternative.html" . }}
+
+  <section id="news-single" class="bg-light-gray">
+    <div class="container">
+      {{ .Title }}
+      {{ .Date.Format "2006/01/02" }}
+      {{ .Content }}
+
+      <a href="/news/">goto list</a>
+    </div>
+  </section>
+
+  {{ if .Site.Params.footer.enable }}
+  {{ partial "footer.html" . }}
+  {{ end }}
+</body>
+</html>
