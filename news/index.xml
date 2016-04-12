@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on 5분실험실</title>
+    <title>News on 5minlab</title>
     <link>http://5minlab.github.io/news/</link>
-    <description>Recent content in News on 5분실험실</description>
+    <description>Recent content in News on 5minlab</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
+    <language>en-US</language>
     <lastBuildDate>Sun, 14 Feb 2016 16:11:58 +0530</lastBuildDate>
     <atom:link href="http://5minlab.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     
