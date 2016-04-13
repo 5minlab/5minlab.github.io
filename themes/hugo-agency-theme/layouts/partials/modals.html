@@ -15,12 +15,12 @@
                         <h2>{{ .title  | markdownify }}</h2>
                         <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
 
-                        {{ if isset . "youtubeLink" }}
-                        <iframe width="{{ .youtubeWidth }}" height="{{ .youtubeHeight }}" src="https://www.youtube.com/embed/{{ .youtubeLink }}?autoplay=1" frameborder="0" allowfullscreen></iframe>
-                        {{ end }}
-
                         {{ if isset . "img" }}
                         <img class="img-responsive img-centered" src="img/portfolio/{{ .img }}" alt="">
+                        {{ end }}
+						
+                        {{ if isset . "youtubeLink" }}
+                        <iframe width="{{ .youtubeWidth }}" height="{{ .youtubeHeight }}" src="https://www.youtube.com/embed/{{ .youtubeLink }}" frameborder="0" allowfullscreen></iframe>
                         {{ end }}
 
                         <p>{{ .description | markdownify }}</p>

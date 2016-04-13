@@ -83,7 +83,8 @@ publishdir = "public/"
     [params.services]
         enable = true
         title = "Company"
-		subtitle = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
+		subtitle = "게임을 사랑하는 사람들이 모여 자유롭고 즐거운 분위기에서 게임을 만듭니다."
+		#subtitle = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
         #subtitle = "founded in 2013 with game lovers."
 
         [[params.services.row]]
