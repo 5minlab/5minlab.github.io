@@ -1,16 +1,17 @@
 # Site settings
 baseurl = "http://5minlab.github.io/"
-languageCode = "en-US"
+languageCode = "ko-KR"
 title = "5minlab"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-66505862-1"
 
-contentdir = "content/en"
-publishdir = "public/"
+contentdir = "content/ko"
+datadir = "data/ko"
+publishdir = "public/ko"
 
 [params]
-    locale = "en-US"
+    locale = "ko-KR"
 
     # You can use Markdown syntax for urls [text](//url.to/source) or
     # most longer texts.
@@ -35,7 +36,7 @@ publishdir = "public/"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "contact@5minlab.com"
 
 
     # Navigation
@@ -61,7 +62,7 @@ publishdir = "public/"
     #     weight = 10
 
     #[[menu.postpend]]
-    #     url = "/news/"
+    #     url = "/ko/news/"
     #     name = "News"
     #     weight = 10
 
@@ -83,13 +84,13 @@ publishdir = "public/"
     [params.services]
         enable = true
         title = "Company"
-		subtitle = "게임을 사랑하는 사람들이 모여 자유롭고 즐거운 분위기에서 게임을 만듭니다."
-		#subtitle = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
+        subtitle = "게임을 사랑하는 사람들이 모여 자유롭고 즐거운 분위기에서 게임을 만듭니다."
+        #subtitle = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
         #subtitle = "founded in 2013 with game lovers."
 
         [[params.services.row]]
 
-			[[params.services.row.list]]
+            [[params.services.row.list]]
                 icon = "fa-child"
                 title = "팀"
                 description = "2013년에 창업해 현재는 14명의 게임을 사랑하는 개발자들로 이루어졌습니다."
@@ -119,7 +120,7 @@ publishdir = "public/"
             client = "Client"
             android = "Android"
             ios = "iOS"
-			gearvr = "Gear VR"
+            gearvr = "Gear VR"
             date = "Date"
             category = "Category"
             buttonText = "Close"
@@ -132,3 +133,14 @@ publishdir = "public/"
             icon = "fa-facebook"
             link = "https://www.facebook.com/5minlab"
 
+        [[params.footer.social]]
+            icon = "fa-github"
+            link = "https://github.com/5minlab"
+
+        [[params.footer.quicklinks]]
+            text = "English"
+            link = "/"
+
+        [[params.footer.quicklinks]]
+            text = "Korean"
+            link = "/ko/"

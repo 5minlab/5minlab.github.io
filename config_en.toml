@@ -7,6 +7,7 @@ theme = "hugo-agency-theme"
 googleAnalytics = "UA-66505862-1"
 
 contentdir = "content/en"
+datadir = "data/en"
 publishdir = "public/"
 
 [params]
@@ -35,7 +36,7 @@ publishdir = "public/"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "your@email.com"
+    email = "contact@5minlab.com"
 
 
     # Navigation
@@ -83,13 +84,13 @@ publishdir = "public/"
     [params.services]
         enable = true
         title = "Company"
-		subtitle = "게임을 사랑하는 사람들이 모여 자유롭고 즐거운 분위기에서 게임을 만듭니다."
-		#subtitle = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
+        subtitle = "게임을 사랑하는 사람들이 모여 자유롭고 즐거운 분위기에서 게임을 만듭니다."
+        #subtitle = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
         #subtitle = "founded in 2013 with game lovers."
 
         [[params.services.row]]
 
-			[[params.services.row.list]]
+            [[params.services.row.list]]
                 icon = "fa-child"
                 title = "Team"
                 description = "Founded in 2013,<br>passionate and experienced 14 game lovers"
@@ -119,7 +120,7 @@ publishdir = "public/"
             client = "Client"
             android = "Android"
             ios = "iOS"
-			gearvr = "Gear VR"
+            gearvr = "Gear VR"
             date = "Date"
             category = "Category"
             buttonText = "Close"
@@ -131,3 +132,15 @@ publishdir = "public/"
         [[params.footer.social]]
             icon = "fa-facebook"
             link = "https://www.facebook.com/5minlab"
+
+        [[params.footer.social]]
+            icon = "fa-github"
+            link = "https://github.com/5minlab"
+
+        [[params.footer.quicklinks]]
+            text = "English"
+            link = "/"
+
+        [[params.footer.quicklinks]]
+            text = "Korean"
+            link = "/ko/"

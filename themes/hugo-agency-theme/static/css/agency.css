@@ -804,6 +804,10 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
+.portfolio-modal .modal-content iframe{
+    max-width: 100%;
+}
+
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
