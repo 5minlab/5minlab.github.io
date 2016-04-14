@@ -8,11 +8,18 @@
 
   <section id="news-single" class="bg-light-gray">
     <div class="container">
-      {{ .Title }}
-      {{ .Date.Format "2006/01/02" }}
-      {{ .Content }}
+      <div class="news-title">
+        <span class="news-date">{{ .Date.Format "2006/01/02" }}</span>
+        {{ .Title }}
+      </div>
 
-      <a href="/news/">goto list</a>
+      <div class="news-content">
+        {{ .Content }}
+      </div>
+
+      <div class="btn-container">
+        <a href=".." class="btn-back-to-list">&lt; Back To List</a>
+      </div>
     </div>
   </section>
 

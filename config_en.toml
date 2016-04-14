@@ -61,10 +61,10 @@ publishdir = "public/"
     #     name = "VR"
     #     weight = 10
 
-    #[[menu.postpend]]
-    #     url = "/news/"
-    #     name = "News"
-    #     weight = 10
+    [[menu.postpend]]
+         url = "/news/"
+         name = "News"
+         weight = 10
 
     [[menu.postpend]]
          url = "http://vr.5minlab.com"

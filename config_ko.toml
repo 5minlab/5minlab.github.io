@@ -61,10 +61,10 @@ publishdir = "public/ko"
     #     name = "VR"
     #     weight = 10
 
-    #[[menu.postpend]]
-    #     url = "/ko/news/"
-    #     name = "News"
-    #     weight = 10
+    [[menu.postpend]]
+         url = "/ko/news/"
+         name = "News"
+         weight = 10
 
     [[menu.postpend]]
          url = "http://vr.5minlab.com"
