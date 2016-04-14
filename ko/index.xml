@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>5분실험실</title>
+    <title>5minlab</title>
     <link>http://5minlab.github.io/</link>
-    <description>Recent content on 5분실험실</description>
+    <description>Recent content on 5minlab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 14 Feb 2016 16:11:58 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jan 2016 01:02:03 +0900</lastBuildDate>
     <atom:link href="http://5minlab.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>뉴스 샘플 - Good to Great Book Review</title>
+      <title>뉴스 템플릿</title>
       <link>http://5minlab.github.io/news/news-sample/</link>
-      <pubDate>Sun, 14 Feb 2016 16:11:58 +0530</pubDate>
+      <pubDate>Sat, 02 Jan 2016 01:02:03 +0900</pubDate>
       
       <guid>http://5minlab.github.io/news/news-sample/</guid>
-      <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in January 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.
-Step 4. Serve content&lt;/p&gt;
+      <description>&lt;p&gt;여자의 근로는 특별한 보호를 받으며, 고용·임금 및 근로조건에 있어서 부당한 차별을 받지 아니한다. 위원은 정당에 가입하거나 정치에 관여할 수 없다.&lt;/p&gt;
+
+&lt;p&gt;각급 선거관리위원회는 선거인명부의 작성등 선거사무와 국민투표사무에 관하여 관계 행정기관에 필요한 지시를 할 수 있다. 국가는 평생교육을 진흥하여야 한다.&lt;/p&gt;
+
+&lt;p&gt;국가는 농수산물의 수급균형과 유통구조의 개선에 노력하여 가격안정을 도모함으로써 농·어민의 이익을 보호한다. 국무총리는 국무위원의 해임을 대통령에게 건의할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;국가는 모성의 보호를 위하여 노력하여야 한다. 국회에 제출된 법률안 기타의 의안은 회기중에 의결되지 못한 이유로 폐기되지 아니한다. 다만, 국회의원의 임기가 만료된 때에는 그러하지 아니하다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://guny.kr/stuff/klorem/&#34;&gt;한글 Lorem Ipsum&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
