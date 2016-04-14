@@ -84,7 +84,7 @@ publishdir = "public/"
     [params.services]
         enable = true
         title = "Company"
-        subtitle = "게임을 사랑하는 사람들이 모여 자유롭고 즐거운 분위기에서 게임을 만듭니다."
+        subtitle = "We all love games. Our job is to make games together in a free and pleasant atmosphere."
         #subtitle = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
         #subtitle = "founded in 2013 with game lovers."
 
@@ -93,7 +93,7 @@ publishdir = "public/"
             [[params.services.row.list]]
                 icon = "fa-child"
                 title = "Team"
-                description = "Founded in 2013,<br>passionate and experienced 14 game lovers"
+                description = "Founded in 2013,<br>by passionate and experienced 14 game lovers"
 
             [[params.services.row.list]]
                 icon = "fa-location-arrow"
@@ -114,7 +114,7 @@ publishdir = "public/"
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
         title = "Games"
-        subtitle = "독특하고 재밌는 5민랩의 게임들을 만나보세요!"
+        subtitle = "Meet the games of 5minlab. All full of fun, wit and originality."
 
         [params.portfolio.modal]
             client = "Client"
