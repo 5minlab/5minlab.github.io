@@ -1,5 +1,7 @@
 # 5minlab.github.io
 
+[![Build Status](https://travis-ci.org/5minlab/5minlab.github.io.svg?branch=master)](https://travis-ci.org/5minlab/5minlab.github.io)
+
 ## Install
 ```
 go get -u -v github.com/spf13/hugo
