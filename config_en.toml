@@ -89,7 +89,7 @@ publishdir = "public/"
         #subtitle = "founded in 2013 with game lovers."
 
         titleExtra = ""
-        subtitleExtra = "TODO-subtitle extra"
+        subtitleExtra = "We create games for everyone by bringing values that anyone hasn't tried."
 
         [[params.services.row]]
 

@@ -306,7 +306,7 @@ header .intro-text .intro-lead-in img {
 }
 @media(min-width:768px) {
   header .intro-text .intro-lead-in img {
-    max-width: 600px;
+    max-width: 400px;
   }
 }
 
@@ -321,7 +321,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 200px;
     }
 
@@ -337,9 +337,10 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 60px;
         font-weight: 700;
         line-height: 75px;
+        word-break: keep-all;
     }
 }
 
