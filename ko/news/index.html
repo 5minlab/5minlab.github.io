@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="5minlab">
 <meta name="author" content="5minlab">
-<meta name="generator" content="Hugo 0.16-DEV" />
+<meta name="generator" content="Hugo 0.17-DEV" />
 <title>5minlab</title>
 <!-- Bootstrap Core CSS -->
 <link href="http://5minlab.github.io/css/bootstrap.min.css" rel="stylesheet">
@@ -27,59 +27,67 @@
 </head>
 <body id="page-top" class="index">
   <!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand page-scroll" href="/#page-top">5minlab</a>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/#page-top">
+              
+              <img src="/img/5minlab-logo/5minlab-logo-orig.png"
+                alt="5minlab"/>
+            </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="/#page-top"></a>
+                </li>
+
+                
+
+                
+                <li>
+                    <a class="page-scroll" href="/#portfolio">Games</a>
+                </li>
+                
+
+                
+                <li>
+                    <a class="page-scroll" href="/#services">Company</a>
+                </li>
+                
+
+
+                
+
+                
+
+                
+
+                
+                <li>
+                    <a href="/ko/news/">News</a>
+                </li>
+                
+                <li>
+                    <a href="http://vr.5minlab.com">VR</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-          <a href="/#page-top"></a>
-        </li>
-
-        
-
-        
-        <li>
-          <a class="page-scroll" href="/#services">Company</a>
-        </li>
-        
-
-        
-        <li>
-          <a class="page-scroll" href="/#portfolio">Games</a>
-        </li>
-        
-
-        
-
-        
-
-        
-
-        
-        <li>
-          <a href="/ko/news/">News</a>
-        </li>
-        
-        <li>
-          <a href="http://vr.5minlab.com">VR</a>
-        </li>
-        
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container-fluid -->
+    <!-- /.container-fluid -->
 </nav>
 
 
@@ -133,9 +141,30 @@
   
 
   <!-- jQuery -->
-  <script src="http://5minlab.github.io/js/jquery.js"></script>
-  <!-- Bootstrap Core JavaScript -->
-  <script src="http://5minlab.github.io/js/bootstrap.min.js"></script>
+<script src="http://5minlab.github.io/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="http://5minlab.github.io/js/bootstrap.min.js"></script>
+<script src="http://5minlab.github.io/js/classie.js"></script>
+
+<script>
+  
+  (function() {
+    var header = document.querySelector( '.navbar-default' );
+    classie.add( header, 'navbar-shrink' );
+  })();
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-66505862-1', 'auto');
+ga('send', 'pageview');
+</script>
+
 
 </body>
 </html>

@@ -171,7 +171,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    /*background-color: #222; */
+    background-color: #555;
 }
 
 .navbar-default .navbar-brand {
@@ -253,12 +254,23 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        /*background-color: #222;*/
+        background-color: #555;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+}
+
+/* navbar-brand로 이미지를 띄울때 사용하기. 텍스트만 쓰면 필요없다 */
+.navbar-default .navbar-brand {
+  padding: 0 0 0 15px;
+}
+.navbar-default .navbar-brand img {
+  margin: 8px 0 5px 0;
+  width: auto;
+  height: 35px;
 }
 
 header {
@@ -285,6 +297,17 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+}
+
+/* 회사 로고를 넣는 경우에 사용하기 */
+header .intro-text .intro-lead-in img {
+  max-width: 80%;
+  height: auto;
+}
+@media(min-width:768px) {
+  header .intro-text .intro-lead-in img {
+    max-width: 600px;
+  }
 }
 
 header .intro-text .intro-heading {
@@ -877,6 +900,21 @@ ul.social-buttons li a:active {
 
 #news-single .btn-back-to-list {
     padding: 10px;
+}
+
+.figure-gamejam {
+  margin-bottom: 75px;
+}
+
+.figure-gamejam img {
+  max-width: 100%;
+}
+@media(min-width:768px) {
+  .figure-gamejam img {
+    width: 80%;
+  }
+}
+.figure-gamejam figcaption {
 }
 
 ::-moz-selection {
