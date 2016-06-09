@@ -88,6 +88,10 @@ publishdir = "public/ko"
         #subtitle = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
         #subtitle = "founded in 2013 with game lovers."
 
+        titleExtra = ""
+        subtitleExtra = "지금까지 없던 새로운 것을 담아 누구나 할 수 있는 게임으로 만듭니다."
+
+
         [[params.services.row]]
 
             [[params.services.row.list]]

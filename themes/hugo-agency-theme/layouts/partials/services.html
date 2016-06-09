@@ -5,8 +5,31 @@
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
                 <h3 class="section-subheading text-muted">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
-				<img src="img/portfolio/gamejam.jpg" width=80%>
             </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <figure class="figure-gamejam">
+              <img src="img/portfolio/gamejam.jpg">
+              <figcaption class="text-muted">
+                <a href="http://globalgamejam.org/2016/jam-sites/ggj-2016-seoul-5minlab">
+                  Global Game Jam 2016 @5minlab
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">
+              {{ with .Site.Params.services.titleExtra }}{{ . }}{{ end }}
+            </h2>
+            <h3 class="section-subheading text-muted">
+              {{ with .Site.Params.services.subtitleExtra }}{{ . | markdownify }}{{ end }}
+            </h3>
+          </div>
         </div>
 
         {{ range .Site.Params.services.row }}

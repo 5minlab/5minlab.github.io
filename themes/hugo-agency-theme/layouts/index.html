@@ -7,10 +7,12 @@
         {{ partial "nav.html" . }}
         {{ partial "hero.html" . }}
 
+        <!-- 게임목록 -->
         {{ if .Site.Params.portfolio.enable }}
             {{ partial "portfolio.html" . }}
         {{ end }}
 
+        <!-- 회사 간단소개 -->
         {{ if .Site.Params.services.enable }}
             {{ partial "services.html" . }}
         {{ end }}

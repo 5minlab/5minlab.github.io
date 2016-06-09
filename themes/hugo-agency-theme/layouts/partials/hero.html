@@ -2,7 +2,12 @@
 <header>
     <div class="container">
         <div class="intro-text">
-            <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
+          <div class="intro-lead-in">
+            <!-- {{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }} -->
+            <img src="./img/5minlab-logo/5minlab-logo-orig.png"
+              alt="{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}"/>
+
+          </div>
             <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
             <a href="#portfolio" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
         </div>

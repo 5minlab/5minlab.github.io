@@ -4,7 +4,7 @@
   {{ partial "head.html" . }}
 </head>
 <body id="page-top" class="index">
-  {{ partial "nav_alternative.html" . }}
+  {{ partial "nav.html" . }}
 
   <section id="news-list" class="bg-light-gray">
     <div class="container">
@@ -20,10 +20,6 @@
   {{ partial "footer.html" . }}
   {{ end }}
 
-  {{ "<!-- jQuery -->" | safeHTML }}
-  <script src="{{ .Site.BaseURL }}js/jquery.js"></script>
-  {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
-  <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
-
+  {{ partial "js_news.html" . }}
 </body>
 </html>

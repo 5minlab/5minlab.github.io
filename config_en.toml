@@ -88,6 +88,9 @@ publishdir = "public/"
         #subtitle = "Our aim is to create games for everyone by introducing new values."
         #subtitle = "founded in 2013 with game lovers."
 
+        titleExtra = ""
+        subtitleExtra = "TODO-subtitle extra"
+
         [[params.services.row]]
 
             [[params.services.row.list]]
