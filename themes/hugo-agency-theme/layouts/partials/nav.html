@@ -1,6 +1,7 @@
 {{ "<!-- Navigation -->" | safeHTML }}
 
 {{ $isindex := eq (string .Permalink) (string .Site.BaseURL) }}
+{{ $is_ko := eq (.Site.Params.locale) "ko-KR" }}
 
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -22,7 +23,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden">
-                    <a href="{{if not $isindex }}/{{end}}#page-top"></a>
+                    <a href="{{if not $isindex }}{{if $is_ko}}/ko{{else}}/{{end}}{{end}}#page-top"></a>
                 </li>
 
                 {{ range .Site.Menus.prepend }}
@@ -33,32 +34,32 @@
 
                 {{ if .Site.Params.portfolio.enable }}
                 <li>
-                    <a class="page-scroll" href="{{if not $isindex }}/{{end}}#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll" href="{{if not $isindex }}{{if $is_ko}}/ko{{else}}/{{end}}{{end}}#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
                 {{ if .Site.Params.services.enable }}
                 <li>
-                    <a class="page-scroll" href="{{if not $isindex }}/{{end}}#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll" href="{{if not $isindex }}{{if $is_ko}}/ko{{else}}/{{end}}/{{end}}#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
 
                 {{ if .Site.Params.about.enable }}
                 <li>
-                    <a class="page-scroll" href="{{if not $isindex }}/{{end}}#about">{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll" href="{{if not $isindex }}{{if $is_ko}}/ko{{else}}/{{end}}{{end}}#about">{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
                 {{ if .Site.Params.team.enable }}
                 <li>
-                    <a class="page-scroll" href="{{if not $isindex }}/{{end}}#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll" href="{{if not $isindex }}{{if $is_ko}}/ko{{else}}/{{end}}{{end}}#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
                 {{ if .Site.Params.contact.enable }}
                 <li>
-                    <a class="page-scroll" href="{{if not $isindex }}/{{end}}#contact">{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll" href="{{if not $isindex }}{{if $is_ko}}/ko{{else}}/{{end}}{{end}}#contact">{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
