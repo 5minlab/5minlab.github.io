@@ -6,7 +6,7 @@ title = "5minlab TA 구인 공고"
 
 ## 5minlab과 함께 VR 게임을 만들 3D Lead Artist를 찾습니다!
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/CuK98mMg-j0" frameborder="0" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/CuK98mMg-j0?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
 
 
 VR 게임 제작 선도 업체 5minlab과 함께 전세계를 겨냥한 VR게임을 만들 리드 3D 아티스트를 찾습니다.
@@ -97,7 +97,7 @@ VR 게임 개발은 아직 생소하고 이 때문에 기존 게임 개발 - 콘
 * 2016. 3. Snake VR 
 
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/5O36iqNUTpI" frameborder="0" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/5O36iqNUTpI?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
 
 게임을 사랑하는 사람들과 함께 자유로운 분위기 속에서 독특한 게임을 만드실 “아트 디렉터"님을 모시고 싶습니다!
 
