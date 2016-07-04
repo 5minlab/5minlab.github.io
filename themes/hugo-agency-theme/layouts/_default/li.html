@@ -1,7 +1,12 @@
+{{ $is_ko := eq (.Site.Params.locale) "ko-KR" }}
+
 <li>
   <span class="news-date">{{ .Date.Format "2006/01/02" }}</span>
-
+  {{ if $is_ko }}
+  <a href="/ko{{ .RelPermalink }}" class="news-title">
+  {{ else }}
   <a href="{{ .RelPermalink }}" class="news-title">
+  {{ end }}
     {{ .Title }}
   </a>
 </li>
