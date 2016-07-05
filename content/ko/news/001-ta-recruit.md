@@ -121,6 +121,6 @@ VR 게임 개발은 아직 생소하고 이 때문에 기존 게임 개발 - 콘
 <iframe width="854" height="480" src="https://www.youtube.com/embed/5O36iqNUTpI" frameborder="0" allowfullscreen></iframe>
 
 
-**게임을 사랑하는 사람들과 함께 자유로운 분위기 속에서 독특한 게임을 만드실 “아트 디렉터"님을 모시고 싶습니다!**
+**게임을 사랑하는 사람들과 함께 자유로운 분위기 속에서 독특한 게임을 만드실 “아티스트"님을 모시고 싶습니다!**
 
 
