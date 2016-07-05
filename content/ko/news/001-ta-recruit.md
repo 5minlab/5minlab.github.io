@@ -108,7 +108,7 @@ VR 게임 개발은 아직 생소하고 이 때문에 기존 게임 개발 - 콘
 * 2016. KOCCA 첨단융복합게임컨텐츠(VR 게임 컨텐츠) 지원사업 선정 
  
 
-#### Gamography:
+#### Gameography:
 
 * 2014. 8. 꼬모: 냥이 추적자 for Kakao
 * 2015. 5. Como’s Adventure (꼬모 글로벌 버전)
