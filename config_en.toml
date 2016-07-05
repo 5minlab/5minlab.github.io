@@ -1,5 +1,6 @@
 # Site settings
 baseurl = "http://5minlab.github.io/"
+rooturl = "http://5minlab.github.io/"
 languageCode = "en-US"
 title = "5minlab"
 theme = "hugo-agency-theme"
