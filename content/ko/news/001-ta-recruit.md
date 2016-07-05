@@ -1,7 +1,7 @@
 +++
 date = "2016-07-04T21:00:00+09:00"
 draft = false
-title = "5minlab TA 구인 공고"
+title = "5minlab 3D 리드 아티스트 구인 공고"
 +++
 
 ## 5minlab과 함께 VR 게임을 만들 3D Lead Artist를 찾습니다!
@@ -10,7 +10,7 @@ title = "5minlab TA 구인 공고"
 <iframe width="854" height="480" src="https://www.youtube.com/embed/CuK98mMg-j0?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
 
 
-**VR 게임 제작 선도 업체 5minlab과 함께 전세계를 겨냥한 VR게임을 만들 리드 3D 아티스트를 찾습니다.**
+**VR 게임 제작 선도 업체 5minlab과 함께 전세계를 겨냥한 VR게임을 만들 3D 리드 아티스트를 찾습니다.**
 
 
 
