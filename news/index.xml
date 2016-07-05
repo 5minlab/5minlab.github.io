@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on 5minlab</title>
-    <link>http://5minlab.github.io/news/</link>
+    <link>http://5minlab.com/news/</link>
     <description>Recent content in News on 5minlab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 02 Jan 2016 01:02:03 +0900</lastBuildDate>
-    <atom:link href="http://5minlab.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://5minlab.com/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sample News Template</title>
-      <link>http://5minlab.github.io/news/news-sample/</link>
+      <link>http://5minlab.com/news/news-sample/</link>
       <pubDate>Sat, 02 Jan 2016 01:02:03 +0900</pubDate>
       
-      <guid>http://5minlab.github.io/news/news-sample/</guid>
+      <guid>http://5minlab.com/news/news-sample/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae massa magna. Cras nisi eros, aliquam at vulputate et, ultrices in felis. Aenean id dolor non erat pulvinar posuere. Aenean posuere porttitor nunc, in sodales ipsum suscipit a. Praesent pulvinar nisi sed condimentum pharetra. Praesent feugiat elit ut nisi volutpat, at pharetra lacus cursus. Praesent sodales neque sed velit viverra, vel tincidunt elit porta. Maecenas lobortis vel magna et placerat. Phasellus gravida metus et consectetur posuere. Aliquam a orci odio. Donec tincidunt elit non purus porta feugiat.&lt;/p&gt;
 
 &lt;p&gt;Aliquam malesuada ligula at felis accumsan sagittis. Duis viverra mauris at ipsum molestie facilisis. In id libero id dui pretium mollis. Pellentesque id accumsan sem. Proin iaculis, augue ut facilisis dapibus, augue ipsum gravida ante, sed aliquet ipsum dui quis est. Fusce enim quam, vulputate vitae nunc ac, tincidunt auctor metus. Aenean porta tellus sem, sit amet venenatis enim aliquam in. Quisque vel augue leo. Fusce eu pharetra purus. Cras egestas, neque vitae bibendum aliquet, nisl nulla ultrices nibh, id ultricies lectus leo et felis. Fusce massa dolor, fermentum et ante ac, mollis lacinia quam. Duis pretium pellentesque bibendum.&lt;/p&gt;
