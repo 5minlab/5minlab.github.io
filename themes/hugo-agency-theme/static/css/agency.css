@@ -923,6 +923,9 @@ ul.social-buttons li a:active {
 #project-single .project-video {
   max-width: 100%;
 }
+#project-single .anchor-language {
+  color: #eab500;
+}
 
 .figure-gamejam {
   margin-bottom: 75px;

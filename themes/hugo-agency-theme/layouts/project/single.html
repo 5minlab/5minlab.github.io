@@ -12,6 +12,7 @@
     <div class="container">
       <h1>{{ .Title }}</h1>
 
+
       <!--
       キャッチコピー
       Catchphrase
@@ -31,12 +32,12 @@
 
       <!-- <h3>Screenshots</h3> -->
 
-      <div class="carousel slide" data-ride="carousel">
+      <div id="screenshot-carousel" class="carousel slide" data-ride="carousel">
         <!-- - Indicators -->
         <ol class="carousel-indicators">
           {{ range $index, $elem := .Params.screenshots }}
-          <li data-target="#carousel-example-generic" data-slide-to="{{ $index}}"
-            {{ if (eq $elem 0) }} class="active" {{ end }}></li>
+          <li data-target="#screenshot-carousel" data-slide-to="{{ $index }}"
+            {{ if (eq $index 0) }} class="active" {{ end }}></li>
           {{ end }}
         </ol>
 
@@ -53,11 +54,11 @@
         </div>
 
         <!-- - Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <a class="left carousel-control" href="#screenshot-carousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <a class="right carousel-control" href="#screenshot-carousel" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
@@ -120,6 +121,21 @@
           : {{ .Params.genre }}
         </li>
       </ul>
+
+      <h3>Other Language</h3>
+      <ul>
+        <li>
+          <a href="{{ .Site.BaseURL }}{{ .RelPermalink }}" class="anchor-language">
+            English
+          </a>
+        </li>
+        <li>
+          <a href="{{ .Site.BaseURL }}/ja/{{ .RelPermalink }}" class="anchor-language">
+            Japanese
+          </a>
+        </li>
+      </ul>
+
     </div>
   </section>
 
