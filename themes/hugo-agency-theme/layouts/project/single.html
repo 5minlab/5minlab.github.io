@@ -8,20 +8,30 @@
 <body id="page-top" class="index">
   {{ partial "nav.html" . }}
 
-  <section id="news-single" class="bg-light-gray">
+  <section id="project-single" class="bg-light-gray">
     <div class="container">
       <h1>{{ .Title }}</h1>
 
+      <!--
+      キャッチコピー
+      Catchphrase
+      -->
       <h2>{{ .Params.catchphrase }}</h2>
 
-      <h3>Expected Launching Date</h3>
+      <h3>
+        {{ if (eq .Site.LanguageCode "ja-JP") }}
+        開発完了予定
+        {{ else }}
+        Expected Launching Date
+        {{ end }}
+      </h3>
       <p>
         {{ .Params.expectedreleasedate }}
       </p>
 
-      <h3>Screenshots</h3>
+      <!-- <h3>Screenshots</h3> -->
 
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <div class="carousel slide" data-ride="carousel">
         <!-- - Indicators -->
         <ol class="carousel-indicators">
           {{ range $index, $elem := .Params.screenshots }}
@@ -36,7 +46,7 @@
           <div class="item {{ if (eq $index 0) }} active {{ end }}">
             <img src="{{ $elem }}" alt="screenshot">
             <div class="carousel-caption">
-              TODO
+              <!-- TODO caption -->
             </div>
           </div>
           {{ end }}
@@ -54,29 +64,61 @@
       </div>
 
       <h3>Youtube</h3>
-      <iframe src="https://www.youtube.com/embed/{{ .Params.youtubelink }}"
+      <iframe src="https://www.youtube.com/embed/{{ .Params.youtubelink }}" class="project-video"
+        width="720" height="450"
         frameborder="0" allowfullscreen>
       </iframe>
 
-      <h3>Description</h3>
+      <h3>
+        {{ if (eq .Site.LanguageCode "ja-JP") }}
+        概要
+        {{ else }}
+        Description
+        {{ end }}
+      </h3>
       {{ .Content }}
 
-      <h3>Features</h3>
+      <h3>
+        {{ if (eq .Site.LanguageCode "ja-JP") }}
+        特徴
+        {{ else }}
+        Key features
+        {{ end }}
+      </h3>
       <ul>
         {{ range .Params.features }}
         <li>{{ . }}</li>
         {{ end }}
       </ul>
 
-      <h3>Specifictions</h3>
+      <h3>
+        {{ if (eq .Site.LanguageCode "ja-JP") }}
+        リリース情報
+        {{ else }}
+        Specification
+        {{ end }}
+      </h3>
       <ul>
-        <li>Platforms</li>
+        <li>
+          {{ if (eq .Site.LanguageCode "ja-JP") }}
+          プラットフォーム
+          {{ else }}
+          Platform
+          {{ end }}
+        </li>
         <ul>
           {{ range .Params.platforms }}
           <li>{{ . }}</li>
           {{ end }}
         </ul>
-        <li>Genre : {{ .Params.genre }}</li>
+        <li>
+          {{ if (eq .Site.LanguageCode "ja-JP") }}
+          ジャンル
+          {{ else }}
+          Genre
+          {{ end }}
+          : {{ .Params.genre }}
+        </li>
       </ul>
     </div>
   </section>

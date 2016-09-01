@@ -1,0 +1,150 @@
+# Site settings
+baseurl = "http://5minlab.com/ja/"
+rooturl = "http://5minlab.com/"
+languageCode = "ja-JP"
+title = "5minlab"
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-66505862-1"
+
+contentdir = "content/ja"
+datadir = "data/ja"
+publishdir = "public/ja"
+
+[params]
+    locale = "ja-JP"
+
+    # You can use Markdown syntax for urls [text](//url.to/source) or
+    # most longer texts.
+    #
+    # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+    # for more icons. The icons are represented by their corresponding
+    # CSS class.
+
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "5minlab"
+    description = "5minlab"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    email = "contact@5minlab.com"
+
+
+    # Navigation
+    [params.navigation]
+        brand = "5minlab"
+        portfolio = "Games"
+        services = "Company"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "http://gohugo.io"
+    #    name = "Hugo"
+    #    weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #     url = "http://vr.5minlab.com"
+    #     name = "VR"
+    #     weight = 10
+
+    [[menu.postpend]]
+         url = "/news/"
+         name = "News"
+         weight = 10
+
+    [[menu.postpend]]
+         url = "http://vr.5minlab.com"
+         name = "VR"
+         weight = 10
+
+    # Hero section
+    [params.hero]
+        # To change the background image of the hero, replace 'header-bg.jpg' in
+        # the 'static/img' folder.
+        title = "5minlab"
+        subtitle = "Enchanting your game experience"
+        buttonText = "Tell me more"
+
+
+    # Services section
+    [params.services]
+        enable = true
+        title = "Company"
+        subtitle = "We all love games. Our job is to make games together in a free and pleasant atmosphere."
+        #subtitle = "Our aim is to create games for everyone by introducing new values."
+        #subtitle = "founded in 2013 with game lovers."
+
+        titleExtra = ""
+        subtitleExtra = "We create games for everyone by bringing values that anyone hasn't tried."
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-child"
+                title = "Team"
+                description = "Founded in 2013,<br>by passionate and experienced 14 game lovers"
+
+            [[params.services.row.list]]
+                icon = "fa-location-arrow"
+                title = "Location"
+                description = "4F, 73, Wausan-ro, Mapo-gu, Seoul, Republic of Korea"
+
+            [[params.services.row.list]]
+                icon = "fa-envelope"
+                title = "Contact"
+                description = "<a href=\"mailto:contact@5minlab.com\">contact@5minlab.com</a><br>+82-70-4200-8253"
+
+
+    # Portfolio section
+    [params.portfolio]
+        enable = true
+        # All projects defined in their own files. You can find example projects
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "Games"
+        subtitle = "Meet the games of 5minlab. All full of fun, wit and originality."
+
+        [params.portfolio.modal]
+            client = "Client"
+            android = "Android"
+            ios = "iOS"
+            gearvr = "Gear VR"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close"
+
+    # Footer section
+    [params.footer]
+        enable = true
+
+        [[params.footer.social]]
+            icon = "fa-facebook"
+            link = "https://www.facebook.com/5minlab"
+
+        [[params.footer.social]]
+            icon = "fa-github"
+            link = "https://github.com/5minlab"
+
+        [[params.footer.quicklinks]]
+            text = "English"
+            link = "/"
+
+        [[params.footer.quicklinks]]
+            text = "Korean"
+            link = "/ko/"

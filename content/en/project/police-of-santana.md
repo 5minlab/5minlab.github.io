@@ -1,17 +1,19 @@
 +++
 title = "Police of Santana"
-catchPhrase = "아포칼립스 세계관 속에 펼쳐지는 유쾌한 액션"
-expectedReleaseDate = "2017년 3월"
+catchPhrase = "An exciting gun-shooting action game with its background set in the world of apocalypse."
+expectedReleaseDate = "March, 2017"
 screenshots = [
-"https://i.ytimg.com/vi/VLxGwxyxZp4/maxresdefault.jpg",
-"https://i.ytimg.com/vi/iCADlNAj_iI/maxresdefault.jpg",
-"https://i.ytimg.com/vi/zA31U2BNSP4/maxresdefault.jpg",
+"../../img/portfolio/tgs-2016/POS_000.png",
+"../../img/portfolio/tgs-2016/POS_001.png",
+"../../img/portfolio/tgs-2016/POS_002.png",
+"../../img/portfolio/tgs-2016/POS_003.png",
+"../../img/portfolio/tgs-2016/POS_004.png",
 ]
 youtubeLink = "Dvla9bp-IIY"
 features = [
-  "수호의 손길이 필요한 황폐한 도시 배경",
-  "강력 범죄자, 좀비 떼와의 대결 시스템",
-  "플레이어 상황에 따라 다르게 반응하는 NPC 시스템",
+  "Devastated town background.",
+  "Enemy characters including criminals and zombies.",
+  "NPC system that reacts to the player’s contextual situation",
 ]
 platforms = [
   "HTC Vive",
@@ -20,4 +22,4 @@ platforms = [
 genre = "FPS"
 +++
 
-도시에 남은 유일한 경찰관이 되어 시민을 보호하고, 악의 무리를 무찌르세요.
+Be the last police officer in town to protect citizens from dangers.
