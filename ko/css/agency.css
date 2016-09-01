@@ -907,6 +907,23 @@ ul.social-buttons li a:active {
     padding: 10px;
 }
 
+#project-single h1,
+#project-single h2,
+#project-single h3,
+#project-single h4,
+#project-single h5,
+#project-single h6 {
+  text-transform: none;
+}
+
+#project-single .carousel {
+  align: center;
+  max-width: 720px;
+}
+#project-single .project-video {
+  max-width: 100%;
+}
+
 .figure-gamejam {
   margin-bottom: 75px;
 }
