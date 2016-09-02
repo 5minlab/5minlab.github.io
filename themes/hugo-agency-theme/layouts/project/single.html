@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{{ $slug := replace (lower .Title) " " "-" }}
+
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
   {{ partial "head.html" . }}
@@ -131,12 +134,12 @@
       </h3>
       <ul>
         <li>
-          <a href="{{ .Site.Params.rooturl }}{{ .RelPermalink }}" class="anchor-language">
+          <a href="{{ .Site.Params.rooturl }}project/{{ $slug }}" class="anchor-language">
             English
           </a>
         </li>
         <li>
-          <a href="{{ .Site.Params.rooturl }}/ja/{{ .RelPermalink }}" class="anchor-language">
+          <a href="{{ .Site.Params.rooturl }}ja/project/{{ $slug }}" class="anchor-language">
             Japanese
           </a>
         </li>
