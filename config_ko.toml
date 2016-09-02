@@ -1,6 +1,5 @@
 # Site settings
 baseurl = "http://5minlab.com/ko/"
-rooturl = "http://5minlab.com/"
 languageCode = "ko-KR"
 title = "5minlab"
 theme = "hugo-agency-theme"
@@ -13,6 +12,7 @@ publishdir = "public/ko"
 
 [params]
     locale = "ko-KR"
+    rooturl = "http://5minlab.com/"
 
     # You can use Markdown syntax for urls [text](//url.to/source) or
     # most longer texts.
