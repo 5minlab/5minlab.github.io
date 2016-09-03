@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Etcs on 5minlab</title>
+    <link>http://5minlab.com/ko/etc/</link>
+    <description>Recent content in Etcs on 5minlab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sat, 03 Sep 2016 21:00:00 +0900</lastBuildDate>
+    <atom:link href="http://5minlab.com/ko/etc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>5minlab VR Portfolio</title>
+      <link>http://5minlab.com/ko/etc/vr-portfolio/</link>
+      <pubDate>Sat, 03 Sep 2016 21:00:00 +0900</pubDate>
+      
+      <guid>http://5minlab.com/ko/etc/vr-portfolio/</guid>
+      <description>
+
+&lt;h2 id=&#34;5minlab-소개&#34;&gt;5minlab 소개&lt;/h2&gt;
+
+&lt;p&gt;5민랩은 2013년에 설립된 게임 제작 회사로 KAIST와 연세대 출신 개발자를 다수 보유한 강력한 개발 능력을 가진 회사입니다.
+저희는 2014년부터 Oculus DK2로 VR 기술 탐색을 시작하였으며, 2015년부터 다양한 VR 게임을 제작하고 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&#34;portfolio&#34;&gt;Portfolio&lt;/h2&gt;
+
+&lt;h3 id=&#34;snake-vr&#34;&gt;Snake VR&lt;/h3&gt;
+
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/KLzbNyUvYp0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Category: Game&lt;/li&gt;
+&lt;li&gt;Device: &lt;a href=&#34;https://www.oculus.com/experiences/gear-vr/992503684170594/&#34;&gt;Gear VR&lt;/a&gt;, &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.Fiveminlab.SnakeVR&amp;amp;hl=ko&#34;&gt;Google Cardboard&lt;/a&gt;, 폭풍마경&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;5minlab-vr-page&#34;&gt;5minlab VR page&lt;/h3&gt;
+
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;http://vr.5minlab.com/&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Category: Web&lt;/li&gt;
+&lt;li&gt;Device: Web, Google Cardboard&lt;/li&gt;
+&lt;li&gt;Note: 자체제작 Unity Scene Web VR Exporter 기술 소유&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;space-sushi&#34;&gt;Space Sushi&lt;/h3&gt;
+
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/5vxO8W2idOQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Category: Game&lt;/li&gt;
+&lt;li&gt;Device: HTC Vive&lt;/li&gt;
+&lt;li&gt;Note: Nexon VR Opencall 출품작&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;toy-clash&#34;&gt;Toy Clash&lt;/h3&gt;
+
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/fWpcxBT8UJ0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Category: Game&lt;/li&gt;
+&lt;li&gt;Device: Oculus Rift, Gear VR, Leap Motion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;연락처&#34;&gt;연락처&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;contact@5minlab.com&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

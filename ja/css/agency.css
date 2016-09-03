@@ -51,7 +51,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -70,7 +69,7 @@ h6 {
 
 .btn-primary {
     border-color: #fed136;
-    text-transform: uppercase;
+  //text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
@@ -335,7 +334,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
+      //text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 60px;
         font-weight: 700;
@@ -356,7 +355,7 @@ section h2.section-heading {
 
 section h3.section-subheading {
     margin-bottom: 75px;
-    text-transform: none;
+  //text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
@@ -371,7 +370,12 @@ section h3.section-subheading {
 
 .service-heading {
     margin: 15px 0;
-    text-transform: none;
+  //text-transform: none;
+}
+
+.index h1,
+.index h2 {
+  text-transform: uppercase;
 }
 
 #portfolio .portfolio-item {
@@ -431,7 +435,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
-    text-transform: none;
+  //text-transform: none;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -556,7 +560,7 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4.subheading {
-    text-transform: none;
+  //text-transform: none;
 }
 
 .timeline .timeline-body>p,
@@ -664,7 +668,7 @@ section h3.section-subheading {
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
-    text-transform: none;
+  //text-transform: none;
 }
 
 .team-member p {
@@ -709,28 +713,28 @@ section#contact .form-control:focus {
 }
 
 section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
+  //text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
-    text-transform: uppercase;
+  //    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
-    text-transform: uppercase;
+  //text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
+  //text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
@@ -746,16 +750,16 @@ footer {
 }
 
 footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
+  //text-transform: uppercase;
+  //text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
 footer ul.quicklinks {
     margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
+  //text-transform: uppercase;
+  //text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
@@ -872,6 +876,14 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
+/* shared content */
+.news-content {
+}
+.news-content iframe {
+    max-width: 100%;
+}
+
+/* for news */
 #news-list ul {
     list-style-type: none;
 }
@@ -892,13 +904,6 @@ ul.social-buttons li a:active {
     color: #fec503;
 }
 
-#news-single .news-content {
-    padding: 20px;
-}
-#news-single .news-content iframe {
-    max-width: 100%;
-}
-
 #news-single .btn-container {
     text-align: center;
 }
@@ -907,13 +912,13 @@ ul.social-buttons li a:active {
     padding: 10px;
 }
 
+/* for project */
 #project-single h1,
 #project-single h2,
 #project-single h3,
 #project-single h4,
 #project-single h5,
 #project-single h6 {
-  text-transform: none;
 }
 
 #project-single .carousel {
