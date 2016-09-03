@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+  {{ partial "head.html" . }}
+  {{ partial "twitter_card.html" . }}
+  {{ partial "fb_opengraph.html" . }}
+</head>
+<body id="page-top" class="index">
+  {{ partial "nav.html" . }}
+
+  <!-- etc는 뉴스와 비슷하지만 일부 정보가 생략된다 -->
+  <section id="etc-single" class="bg-light-gray">
+    <div class="container">
+      <h1>
+        {{ .Title }}
+      </h1>
+
+      <div class="news-content">
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+
+  {{ if .Site.Params.footer.enable }}
+  {{ partial "footer.html" . }}
+  {{ end }}
+
+
+  {{ partial "js_news.html" . }}
+</body>
+</html>
