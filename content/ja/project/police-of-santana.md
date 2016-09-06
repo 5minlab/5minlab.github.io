@@ -9,7 +9,7 @@ screenshots = [
 "../../img/portfolio/tgs-2016/POS_003.png",
 "../../img/portfolio/tgs-2016/POS_004.png",
 ]
-youtubeLink = "Dvla9bp-IIY"
+youtubeLink = "5Ik5DebSLx8"
 features = [
   "守護者を待っている荒れた世界観",
   "凶悪な犯罪者、ゾンビーの群れとの対決",

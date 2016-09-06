@@ -9,7 +9,7 @@ screenshots = [
 "../../img/portfolio/tgs-2016/TC_003.png",
 "../../img/portfolio/tgs-2016/TC_004.png",
 ]
-youtubeLink = "fWpcxBT8UJ0"
+youtubeLink = "iBHzqoqlrd0"
 features = [
   "Deploy units strategically to atteck enemies’s tower.",
   "Use powerful magic spells to save from dangerous situations.",
