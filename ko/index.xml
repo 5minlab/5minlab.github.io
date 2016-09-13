@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5minlab</title>
-    <link>http://5minlab.com/ko/</link>
+    <link>http://5minlab.com/ko/index.xml</link>
     <description>Recent content on 5minlab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
