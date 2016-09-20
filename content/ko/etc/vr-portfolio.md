@@ -40,7 +40,7 @@ title = "5minlab VR Portfolio"
 
 ### Toy Clash
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/fWpcxBT8UJ0" frameborder="0" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/iBHzqoqlrd0" frameborder="0" allowfullscreen></iframe>
 
 * Category: Game
 * Device: Oculus Rift, Gear VR, Leap Motion
