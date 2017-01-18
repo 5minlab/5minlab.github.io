@@ -1,17 +1,17 @@
 modalID: 5
-#title: Toy Clash
-externalLink: "./project/toy-clash/"
+title: Toy Clash
+externalLink: "//toyclash.com"
 
-subtitle: One of the most famous retro games SNAKE has now returned in VR!
+#subtitle: One of the most famous retro games SNAKE has now returned in VR!
 date: 2016-03-25
 #youtubeLink: Dvla9bp-IIY
 #youtubeWidth: 560
 #youtubeHeight: 315
 img: snake.jpg
-preview: snake-preview.jpg
-android: Google Play
-androidLink: "https://play.google.com/store/apps/details?id=com.Fiveminlab.SnakeVR"
-gearvr: search "Snake VR" in the store.
+preview: toyclash-preview.jpg
+#android: Google Play
+#androidLink: "https://play.google.com/store/apps/details?id=com.Fiveminlab.SnakeVR"
+gearvr: search "Toy Clash" in the store.
 gearvrLink: ""
 category: VR Game
 description: >
