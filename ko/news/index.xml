@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News-rsses on 5minlab</title>
+    <title>News on 5minlab</title>
     <link>http://5minlab.com/ko/news/index.xml</link>
-    <description>Recent content in News-rsses on 5minlab</description>
+    <description>Recent content in News on 5minlab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
     <lastBuildDate>Mon, 04 Jul 2016 21:00:00 +0900</lastBuildDate>

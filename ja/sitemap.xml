@@ -3,10 +3,16 @@
   
   <url>
     <loc>http://5minlab.com/ja/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://5minlab.com/ja/project/police-of-santana/</loc>
+  </url>
+  
+  <url>
+    <loc>http://5minlab.com/ja/project/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
