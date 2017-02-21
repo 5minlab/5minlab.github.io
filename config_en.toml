@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://5minlab.com/"
+baseurl = "//5minlab.com/"
 languageCode = "en-US"
 title = "5minlab"
 theme = "hugo-agency-theme"
