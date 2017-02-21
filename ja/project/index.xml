@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on 5minlab</title>
-    <link>http://5minlab.com/ja/project/index.xml</link>
+    <link>//5minlab.com/ja/project/index.xml</link>
     <description>Recent content in Projects on 5minlab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="http://5minlab.com/ja/project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//5minlab.com/ja/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Police of Santana</title>
-      <link>http://5minlab.com/ja/project/police-of-santana/</link>
+      <link>//5minlab.com/ja/project/police-of-santana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://5minlab.com/ja/project/police-of-santana/</guid>
+      <guid>//5minlab.com/ja/project/police-of-santana/</guid>
       <description>&lt;p&gt;あなたはこの街に残った唯一の警察官。市民を守り、悪を倒せ!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Toy Clash</title>
-      <link>http://5minlab.com/ja/project/toy-clash/</link>
+      <link>//5minlab.com/ja/project/toy-clash/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://5minlab.com/ja/project/toy-clash/</guid>
+      <guid>//5minlab.com/ja/project/toy-clash/</guid>
       <description>&lt;p&gt;「Toy Clash」はモバイルVRのタワーオフェンスゲームになります。相手のタワーを占領し、さらなる強敵との対戦を目指しましょう。&lt;/p&gt;
 </description>
     </item>

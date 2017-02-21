@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5minlab</title>
-    <link>http://5minlab.com/ko/index.xml</link>
+    <link>//5minlab.com/ko/index.xml</link>
     <description>Recent content on 5minlab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
     <lastBuildDate>Sat, 03 Sep 2016 21:00:00 +0900</lastBuildDate>
-    <atom:link href="http://5minlab.com/ko/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//5minlab.com/ko/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>5minlab VR Portfolio</title>
-      <link>http://5minlab.com/ko/etc/vr-portfolio/</link>
+      <link>//5minlab.com/ko/etc/vr-portfolio/</link>
       <pubDate>Sat, 03 Sep 2016 21:00:00 +0900</pubDate>
       
-      <guid>http://5minlab.com/ko/etc/vr-portfolio/</guid>
+      <guid>//5minlab.com/ko/etc/vr-portfolio/</guid>
       <description>
 
 &lt;h2 id=&#34;5minlab-소개&#34;&gt;5minlab 소개&lt;/h2&gt;
@@ -72,10 +72,10 @@
     
     <item>
       <title>5minlab 3D 리드 아티스트 구인 공고</title>
-      <link>http://5minlab.com/ko/news/001-ta-recruit/</link>
+      <link>//5minlab.com/ko/news/001-ta-recruit/</link>
       <pubDate>Mon, 04 Jul 2016 21:00:00 +0900</pubDate>
       
-      <guid>http://5minlab.com/ko/news/001-ta-recruit/</guid>
+      <guid>//5minlab.com/ko/news/001-ta-recruit/</guid>
       <description>
 
 &lt;h2 id=&#34;5minlab과-함께-vr-게임을-만들-3d-lead-artist를-찾습니다&#34;&gt;5minlab과 함께 VR 게임을 만들 3D Lead Artist를 찾습니다!&lt;/h2&gt;
