@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>//5minlab.com/ko/etc/vr-portfolio/</loc>
@@ -18,6 +19,11 @@
   </url>
   
   <url>
+    <loc>//5minlab.com/ko/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//5minlab.com/ko/etc/</loc>
     <lastmod>2016-09-03T21:00:00+09:00</lastmod>
     <priority>0</priority>
@@ -26,6 +32,11 @@
   <url>
     <loc>//5minlab.com/ko/news/</loc>
     <lastmod>2016-07-04T21:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//5minlab.com/ko/tags/</loc>
     <priority>0</priority>
   </url>
   
