@@ -102,7 +102,7 @@ publishdir = "public/ja"
             [[params.services.row.list]]
                 icon = "fa-location-arrow"
                 title = "Location"
-                description = "4F, 73, Wausan-ro, Mapo-gu, Seoul, Republic of Korea"
+                description = "2F, 24, 9gil, Seogang-ro, Mapo-gu, Seoul, Korea"
 
             [[params.services.row.list]]
                 icon = "fa-envelope"
