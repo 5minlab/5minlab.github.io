@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="row">
-      {{ range .Site.Data.projects }}
+      {{ range (sort .Site.Data.projects "modalID" "desc") }}
       {{ if (isset . "title") }}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a {{ if (isset . "externalLink") }} href="{{ .externalLink }}" target="_blank" {{ else }} href="#portfolioModal{{ .modalID }}" {{ end }}

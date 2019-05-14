@@ -1,5 +1,5 @@
 {{ "<!-- Portfolio Modals -->" | safeHTML }}
-{{ range .Site.Data.projects }}
+{{ range (sort .Site.Data.projects "modalID" "desc") }}
 <div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
