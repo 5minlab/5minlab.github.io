@@ -3,24 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//5minlab.com/news/news-sample/</loc>
-    <lastmod>2016-01-02T01:02:03+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//5minlab.com/</loc>
     <lastmod>2016-01-02T01:02:03+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//5minlab.com/categories/</loc>
+    <loc>//5minlab.com/news/</loc>
+    <lastmod>2016-01-02T01:02:03+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//5minlab.com/news/</loc>
+    <loc>//5minlab.com/news/news-sample/</loc>
     <lastmod>2016-01-02T01:02:03+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//5minlab.com/categories/</loc>
     <priority>0</priority>
   </url>
   
