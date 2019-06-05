@@ -97,7 +97,7 @@ publishdir = "public/ja"
             [[params.services.row.list]]
                 icon = "fa-child"
                 title = "Team"
-                description = "Founded in 2013,<br>by passionate and experienced 14 game lovers"
+                description = "Founded in 2013,<br>by passionate and experienced 37 game lovers"
 
             [[params.services.row.list]]
                 icon = "fa-location-arrow"

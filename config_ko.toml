@@ -98,7 +98,7 @@ publishdir = "public/ko"
             [[params.services.row.list]]
                 icon = "fa-child"
                 title = "팀"
-                description = "2013년에 창업해 현재는 14명의 게임을 사랑하는 개발자들로 이루어졌습니다."
+                description = "2013년에 창업해 현재는 37명의 게임을 사랑하는 개발자들로 이루어졌습니다."
 
             [[params.services.row.list]]
                 icon = "fa-location-arrow"
