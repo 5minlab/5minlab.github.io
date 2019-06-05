@@ -103,7 +103,7 @@ publishdir = "public/ko"
             [[params.services.row.list]]
                 icon = "fa-location-arrow"
                 title = "위치"
-                description = "서울 마포구 서강로 9길 24, 2층"
+                description = "서울특별시 마포구 독막로 5 송백빌딩 4층 5분실험실"
 
             [[params.services.row.list]]
                 icon = "fa-envelope"
